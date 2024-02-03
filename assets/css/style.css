@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* Main styling*/
 main {
     display: flex;
     justify-content: center;
@@ -11,3 +12,19 @@ main {
     flex-wrap: wrap;
     background-color:aquamarine;
 }
+
+/* Score section styling*/
+#result {
+    flex: 1 100%;
+}
+
+#round-message,
+#score {
+    text-align: center;
+}
+
+#score {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
