@@ -75,7 +75,7 @@ main {
     cursor: pointer;
 }
 
-.choice.active {
+.choice:active {
     border-color: blue;
 }
 
@@ -93,3 +93,26 @@ main {
     height: 110px;
 }
 
+/* Start again button */
+
+.start-again {
+    display: inline-flex;
+    flex: 1 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.start-again > span {
+    font-size: 1.8em;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 10px 15px;
+    background-color: blue;
+    box-shadow: 0 0 3px;
+    color: #fff;
+    transition: all 0.2 ease;    
+}
+
+.start-again > span:hover {
+    color: #000
+}
