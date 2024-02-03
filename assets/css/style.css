@@ -16,6 +16,7 @@ main {
 /* Score section styling*/
 #result {
     flex: 1 100%;
+    text-transform: uppercase;
 }
 
 #round-message,
@@ -26,5 +27,69 @@ main {
 #score {
     font-size: 3em;
     margin-bottom: 10px;
+}
+
+/* Player's area styles */
+.players {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 10px 25px;
+    border: 2pm solid black;
+    text-transform: uppercase;
+}
+
+.selected-choice,
+.name,
+.available-choices {
+    display: inline-flex;
+    flex: 1 100%;
+    padding: 15px 0;
+}
+
+.selected-choice,
+.name {
+    justify-content: center;
+}
+
+.name {
+    font-size: 1.8em;
+    color:black;
+}
+
+/* Choices area styles */
+.available-choices {
+    justify-content: space-between;
+}
+
+.choice {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0 0 3px;
+    cursor: pointer;
+}
+
+.choice.active {
+    border-color: blue;
+}
+
+.choice:hover > img {
+    transform: scale(1.1);
+}
+
+.choice > img {
+    width: 70%;
+    transition: all 0.2s ease;
+}
+
+.selected-choice > .choice {
+    width: 110px;
+    height: 110px;
 }
 
