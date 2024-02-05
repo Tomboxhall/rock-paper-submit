@@ -100,5 +100,14 @@ let calculateAndDisplayResult = (player1Index, computerIndex) => {
     }
 };
 
+// Add Score //
+let addScore = (scoreElement) => {
+    scoreElement.textContent = String(Number(scoreElement.textContent) + 1);
+};
+
+let showMessage = (msg) => {
+    roundMessage.innerHTML = msg;
+};
+
 
 
