@@ -109,5 +109,33 @@ let showMessage = (msg) => {
     roundMessage.innerHTML = msg;
 };
 
+// Reset Button //
+document.querySelector(".reset-btn").addEventListener("click", resetGame);
+
+function resetGame() {
+    resetArea(playerShowArea);
+    resetArea(computerShowArea);
+    resetArea(player1Score);
+    resetArea(computerScore);
+    resetMessage();
+    resetChoices(player1Choices);
+    resetChoices(computerChoices);
+};
+
+function resetArea(area) {
+    area.innerHTML = "";
+};
+
+function resetScore(scoreElement) {
+    scoreElement.textContent = "0";
+};
+
+function resetMessage() {
+    roundMessage.innerHTML = "Make your Choice";
+};
+
+function resetChoices(choices) {
+    choices.forEach((choice) => choice.classList.remove("active"));
+};
 
 

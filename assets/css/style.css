@@ -94,14 +94,14 @@ main {
 }
 
 /* Start again button */
-.start-again {
+.reset-btn {
     display: inline-flex;
     flex: 1 100%;
     justify-content: center;
     margin-top: 20px;
 }
 
-.start-again > span {
+.reset-btn > span {
     font-size: 1.8em;
     cursor: pointer;
     border: 1px solid black;
@@ -112,6 +112,6 @@ main {
     transition: all 0.2 ease;    
 }
 
-.start-again > span:hover {
+.reset-btn > span:hover {
     color: #000
 }
