@@ -53,4 +53,33 @@ let playRound = (player1Choice) => {
     calculateAndDisplayResult(player1Index, computerIndex);
 };
 
+// Players selected choice //
+let showPlayerChoice = (choice, showArea) => {
+    let imgElement = generateImgElement(choice);
+    showArea.innerHTML = "";
+    showArea.appendChild(imgElement);
+}
+
+let showChoiceAndHighlight = (index, choice, showArea) => {
+    let selectedChoice = arr[index];
+    showPlayerChoice(selectedChoice, showArea);
+    highlightSelectedChoice(choices, index);
+};
+
+// Show Players choice Image //
+let generateImgElement = ({ image, name}) => {
+    let imgElement = document.createElement("img");
+    imgElement.src = `${imageFolderPath}/${image}`;
+    imgElement.alt = name;
+    imgElement.title =name;
+    return imgElement;
+};
+
+// Add and remove active class //
+let highlightSelectedChoice = (choices, index) => {
+    choices.forEach((choice) => choice.classList.remove("active"));
+    choices[index].classList.add("active");
+}
+
+
 
