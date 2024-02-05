@@ -81,5 +81,24 @@ let highlightSelectedChoice = (choices, index) => {
     choices[index].classList.add("active");
 }
 
+// Display, and calculate the results //
+let calculateAndDisplayResult = (player1Index, computerIndex) => {
+    let player1Choice = arr[player1Index].name;
+    let computerChoice = arr[computerIndex].name;
+
+    if (player1Choice === computerChoice) {
+        showMessage ("Oh no, it's a draw!");
+    } else {
+        let player1Strength = rule[player1Choice];
+        if (player1Strength.includes(computerChoice)) {
+            addScore(player1Score);
+            showMessage("Player 1 is the winner!");
+        } else {
+            addScore(computerScore);
+            showMessage("Computer is the winner!");
+        }
+    }
+};
+
 
 
