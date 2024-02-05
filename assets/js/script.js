@@ -6,3 +6,11 @@ let options = [
     { image: "spock.png", name: "Spock" },
 ];
 
+let rules = {
+    Rock: ["Lizard", "Scissors"],
+    Paper: ["Rock", "Spock"],
+    Scissors: ["Paper", "Lizard"],
+    Lizard: ["Spock", "Paper"],
+    Spock: ["Scissors", "Rock"],
+}
+
