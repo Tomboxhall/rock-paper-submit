@@ -2,9 +2,9 @@
 let arr = [
     { image: "rock.webp", name: "Rock" },
     { image: "paper.png", name: "Paper" },
-    { image: "scissors.png", name: "Scissors" },
-    { image: "lizard.png", name: "Lizard" },
-    { image: "spock.png", name: "Spock" },
+    { image: "scissors.webp", name: "Scissors" },
+    { image: "lizard.webp", name: "Lizard" },
+    { image: "spock.webp", name: "Spock" },
   ];
 
 // The rules who who wins //
