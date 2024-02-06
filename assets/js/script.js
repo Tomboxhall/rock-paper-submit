@@ -88,15 +88,15 @@ let calculateAndDisplayResult = (player1Index, computerIndex) => {
     let computerChoice = arr[computerIndex].name;
   
     if (player1Choice === computerChoice) {
-      showMessage("Oh no, it's a draw!");
+      showMessage("Uh oh, it's a draw!");
     } else {
       let player1Strength = rule[player1Choice];
       if (player1Strength.includes(computerChoice)) {
         addScore(player1Score);
-        showMessage("Player 1 wins!");
+        showMessage("Player 1 wins this round!");
       } else {
         addScore(computerScore);
-        showMessage("Bot wins!");
+        showMessage("Computer wins this round!");
       }
     }
   };
