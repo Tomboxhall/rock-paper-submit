@@ -82,10 +82,6 @@ main {
     justify-content: space-between;
 }
 
-.available-choice {
-
-}
-
 .choice {
     display: inline-flex;
     justify-content: center;

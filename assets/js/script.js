@@ -1,27 +1,27 @@
 // All of Player 1's choices//
-let player1Choices = document.querySelectorAll("#player1 .available-choices .choice");
+const player1Choices = document.querySelectorAll("#player1 .available-choices .choice");
 
 //All of the Computer's choices//
-let computerChoices = document.querySelectorAll("#computer .available-choice .choice");
+const computerChoices = document.querySelectorAll("#computer .available-choice .choice");
 
 // Where the players chosen choice will show //
-let playerShowArea = document.querySelector("#player1 .selected-choice .choice");
+const playerShowArea = document.querySelector("#player1 .selected-choice .choice");
 
 // Where the computers chosen choice will show //
-let computerShowArea = document.querySelector("#computer .selected-choice .choice");
+const computerShowArea = document.querySelector("#computer .selected-choice .choice");
 
 // Player 1 and Computer scores //
-let player1Score = document.querySelector("#player1-score");
-let computerScore = document.querySelector("#computer-score");
+const player1Score = document.querySelector("#player1-score");
+const computerScore = document.querySelector("#computer-score");
 
 // Where the message will be shown //
-let roundMessage = document.querySelector("#round-message");
+const roundMessage = document.querySelector("#round-message");
 
 // Order of the chocies //
 
-let imageFolderPath = "/assets/images";
+const imageFolderPath = "/assets/images";
 
-let arr = [
+const arr = [
     { image: "rock.webp", name: "Rock" },
     { image: "paper.png", name: "Paper" },
     { image: "scissors.webp", name: "Scissors" },
@@ -30,7 +30,7 @@ let arr = [
   ];
 
 // The rules who who wins //
-let rule = {
+const rule = {
     Rock: ["Lizard", "Scissors"],
     Paper: ["Rock", "Spock"],
     Scissors: ["Paper", "Lizard"],
@@ -44,9 +44,9 @@ player1Choices.forEach((choice) => {
   });
 
 // Play Round function of the game //
-let playRound = (player1Choice) => {
-    let player1Index = player1Choice.getAttribute("data-index");
-    let computerIndex = Math.floor(Math.random() * arr.length);
+const playRound = (player1Choice) => {
+  const player1Index = player1Choice.getAttribute("data-index");
+  const computerIndex = Math.floor(Math.random() * arr.length);
   
     showChoiceAndHighlight(player1Index, player1Choices, playerShowArea);
     showChoiceAndHighlight(computerIndex, computerChoices, computerShowArea);
@@ -55,21 +55,21 @@ let playRound = (player1Choice) => {
   };
 
 // Players selected choice //
-let showPlayerChoice = (choice, showArea) => {
-    let imgElement = generateImgElement(choice);
+const showPlayerChoice = (choice, showArea) => {
+  const imgElement = generateImgElement(choice);
     showArea.innerHTML = "";
     showArea.appendChild(imgElement);
   };
 
-  let showChoiceAndHighlight = (index, choices, showArea) => {
-    let selectedChoice = arr[index];
+  const showChoiceAndHighlight = (index, choices, showArea) => {
+    const selectedChoice = arr[index];
     showPlayerChoice(selectedChoice, showArea);
     highlightSelectedChoice(choices, index);
   };
 
 // Show Players choice Image //
-let generateImgElement = ({ image, name }) => {
-    let imgElement = document.createElement("img");
+const generateImgElement = ({ image, name }) => {
+  const imgElement = document.createElement("img");
     imgElement.src = `${imageFolderPath}/${image}`;
     imgElement.alt = name;
     imgElement.title = name;
@@ -77,21 +77,21 @@ let generateImgElement = ({ image, name }) => {
   };
 
 // Add and remove active class //
-let highlightSelectedChoice = (choices, index) => {
+const highlightSelectedChoice = (choices, index) => {
     choices.forEach((choice) => choice.classList.remove("active"));
     choices[index].classList.add("active");
   };
   
 
 // Display, and calculate the results //
-let calculateAndDisplayResult = (player1Index, computerIndex) => {
-    let player1Choice = arr[player1Index].name;
-    let computerChoice = arr[computerIndex].name;
+const calculateAndDisplayResult = (player1Index, computerIndex) => {
+  const player1Choice = arr[player1Index].name;
+  const computerChoice = arr[computerIndex].name;
   
     if (player1Choice === computerChoice) {
       showMessage("Uh oh, it's a draw!");
     } else {
-      let player1Strength = rule[player1Choice];
+      const player1Strength = rule[player1Choice];
       if (player1Strength.includes(computerChoice)) {
         addScore(player1Score);
         showMessage("Player 1 wins this round!");
@@ -103,11 +103,11 @@ let calculateAndDisplayResult = (player1Index, computerIndex) => {
   };
 
 // Add Score //
-let addScore = (scoreElement) => {
+const addScore = (scoreElement) => {
     scoreElement.textContent = String(Number(scoreElement.textContent) + 1);
   };
 
-  let showMessage = (msg) => {
+  const showMessage = (msg) => {
     roundMessage.innerHTML = msg;
   };
 
