@@ -40,8 +40,21 @@ main {
     flex-wrap: wrap;
     flex: 1;
     padding: 10px 25px;
-    border: 2pm solid whitesmoke;
     text-transform: uppercase;
+}
+
+/* Computer area styles */
+#computer .players {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 10px 25px;
+    border: 2px solid transparent; 
+    text-transform: uppercase;
+}
+
+#computer .available-choice {
+    display: none;
 }
 
 .selected-choice,
@@ -70,7 +83,7 @@ main {
 }
 
 .available-choice {
-    
+
 }
 
 .choice {
