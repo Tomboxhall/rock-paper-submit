@@ -30,7 +30,7 @@ main {
 }
 
 #score {
-    font-size: 3em;
+    font-size: 3.5em;
     margin-bottom: 10px;
 }
 
@@ -69,6 +69,10 @@ main {
     justify-content: space-between;
 }
 
+.available-choice {
+    
+}
+
 .choice {
     display: inline-flex;
     justify-content: center;
@@ -78,12 +82,11 @@ main {
     padding: 10px;
     border-radius: 50%;
     border: 2px solid whitesmoke;
-    box-shadow: 0 0 3px;
     cursor: pointer;
 }
 
 .choice:active {
-    border-color: blue;
+    border-color: black;
 }
 
 .choice:hover > img {

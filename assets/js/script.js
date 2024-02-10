@@ -1,4 +1,26 @@
+// All of Player 1's choices//
+let player1Choices = document.querySelectorAll("#player1 .available-choices .choice");
+
+//All of the Computer's choices//
+let computerChoices = document.querySelectorAll("#computer .available-choice .choice");
+
+// Where the players chosen choice will show //
+let playerShowArea = document.querySelector("#player1 .selected-choice .choice");
+
+// Where the computers chosen choice will show //
+let computerShowArea = document.querySelector("#computer .selected-choice .choice");
+
+// Player 1 and Computer scores //
+let player1Score = document.querySelector("#player1-score");
+let computerScore = document.querySelector("#computer-score");
+
+// Where the message will be shown //
+let roundMessage = document.querySelector("#round-message");
+
 // Order of the chocies //
+
+let imageFolderPath = "/assets/images";
+
 let arr = [
     { image: "rock.webp", name: "Rock" },
     { image: "paper.png", name: "Paper" },
@@ -15,27 +37,6 @@ let rule = {
     Lizard: ["Spock", "Paper"],
     Spock: ["Scissors", "Rock"],
 };
-
-let imageFolderPath = "/assets/images";
-
-// All of Player 1's choices//
-let player1Choices = document.querySelectorAll("#player1 .available-choices .choice");
-
-//All of the Computer's choices//
-let computerChoices = document.querySelectorAll("#computer .available-choices .choice");
-
-// Where the players chosen choice will show //
-let playerShowArea = document.querySelector("#player1 .selected-choice .choice");
-
-// Where the computers chosen choice will show //
-let computerShowArea = document.querySelector("#computer .selected-choice .choice");
-
-// Player 1 and Computer scores //
-let player1Score = document.querySelector("#player1-score");
-let computerScore = document.querySelector("#computer-score");
-
-// Where the message will be shown //
-let roundMessage = document.querySelector("#round-message");
 
 // Event listeners for the Player 1 choices //
 player1Choices.forEach((choice) => {
