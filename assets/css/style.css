@@ -122,7 +122,6 @@ main {
 
 .reset-btn > span {
     font-size: 1.8em;
-    cursor: pointer;
     padding: 10px 15px;
     background-color: rgba(46, 56, 146, 0.37);
     box-shadow: 0 0 3px;
@@ -131,4 +130,10 @@ main {
     font-family: 'Protest Guerrilla', sans-serif;
     font-family: 'Young Serif', serif;
     font-size: 24px;
+    cursor: pointer;
+}
+
+.reset-btn > span:hover {
+    background-color: rgba(46, 56, 146, 0.7);
+    box-shadow: 0 0 10px;
 }
