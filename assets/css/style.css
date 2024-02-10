@@ -98,6 +98,11 @@ main {
     border-color: black;
 }
 
+.choice:hover {
+    background-color: rgba(46, 56, 146, 0.7);
+    box-shadow: 0 0 10px;
+}
+
 .choice:hover > img {
     transform: scale(1.2);
 }
