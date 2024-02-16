@@ -134,7 +134,7 @@ The game dynamically updates the chosen options for both Player 1 and the Comput
 
 ![Updating Score Display + Adding the Score](assets/images/add-score-message-update.png)
 
-![Add score and message update](assets/images/add-score-message-update.png)
+![Add score and message update](assets/images/add-score-message-ss.png)
 
 These JavaScript functions are for updating and displaying scores and messages in a game:
 
