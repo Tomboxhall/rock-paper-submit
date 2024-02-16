@@ -179,7 +179,21 @@ In short, clicking the reset button triggers a function that resets various game
 
 ### 6. Extras
 
-Remove active class
+![Active Class function](assets/images/active-class.png)
+
+This JavaScript function, **highlightSelectedChoice**, manages the visual highlighting of a selected choice among a set of choices:
+
+1. Parameters:
+- **choices**: An array of choices (presumably HTML elements).
+- **index**: The index of the selected choice in the array.
+
+2. Logic:
+- Removes the "active" class from all choices to reset their styling.
+- Adds the "active" class to the selected choice, visually highlighting it.
+
+In the context of this game, when a user makes a new selection or when the game is reset, **resetChoices** is called to remove the "active" class from all choices. This ensures that none of the choices is visually highlighted. Then, when a user makes a new selection, **highlightSelectedChoice** is called to add the "active" class to the chosen choice, visually indicating the current selection.
+
+In summary, **resetChoices** clears any existing visual highlighting from all choices, and **highlightSelectedChoice** adds the visual highlight to a specific choice. These functions work together to manage the visual state of choices in response to user interactions or game events.
 
 ---
 
