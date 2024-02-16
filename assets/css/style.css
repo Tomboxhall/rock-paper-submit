@@ -12,7 +12,7 @@ main {
     width: 80%;
     margin: 0 auto;
     flex-wrap: wrap;
-    background-image: url(/assets/images/space-background1.webp);
+    background-image: url(../images/space-background1.webp);
 }
 
 /* Score section styling*/

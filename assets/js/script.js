@@ -19,7 +19,7 @@ const roundMessage = document.querySelector("#round-message");
 
 // Order of the chocies //
 
-const imageFolderPath = "/assets/images";
+const imageFolderPath = "../assets/images";
 
 const arr = [
     { image: "rock.webp", name: "Rock" },
