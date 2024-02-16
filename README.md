@@ -1,5 +1,7 @@
 # Rock, Paper, Scissors, Lizard, Spock Javascript Game
 
+![Javascript Game Homepage](assets/images/homepage.png)
+
 # Game purpose
 
 Welcome to the Rock, Paper, Scissors, Lizard, Spock game! This interactive web application is a fun and extended version of the classic Rock, Paper, Scissors game. It adds the elements of Lizard and Spock, making the gameplay more exciting and strategic. The game is built using HTML, CSS, and JavaScript.
@@ -59,13 +61,43 @@ Overall, the structure of the Rock, Paper, Scissors, Lizard, Spock game follows 
 1. User Interface
 The game provides a user-friendly interface with clear sections for Player 1, the Computer, and the game results. The background is a mesmerizing space-themed image to enhance the gaming experience.
 
-(Show screenshot example, and any functions related to this)
+![User Interface](assets/images/homepage.png)
+
+Upon the player landing on the Game home page, they will be met with a visually appeasing game, the Player 1 section is on the left, the computers play area on the right, and a scoreboard at the top and a start over button at the bottom. The design was kept simple, and removed any confusion for the player as to what they have to do to participate.
 
 2. Choices
 Player 1's choices are presented with clickable images for Rock, Paper, Scissors, Lizard, and Spock.
 Computer's choices are also displayed but hidden until Player 1 makes a selection.
 
-(Show screenshot example, and any functions related to this)
+![Player Choices](assets/images/choices.png)
+
+The logic behind the Player's chioices comprise of an Event listener, and a Function as follows;
+
+![Event Listener](assets/images/event-listener.png)
+
+This JavaScript code adds click event listeners to elements in the player1Choices array. When one of these elements is clicked, it calls the playRound function with the clicked choice as an argument. The assumption is that player1Choices contains HTML elements representing choices for a game, like buttons, and playRound handles the game logic for the selected choice.
+
+![Selected Choice](assets/images/selected-choices.png.png)
+
+These JavaScript functions work together for displaying and highlighting a player's choice in a web application or game:
+
+1. showPlayerChoice Function:
+- Takes the player's choice and a display area.
+- Uses generateImgElement to create and display an image of the choice in the area.
+
+2. showChoiceAndHighlight Function:
+- Takes an index, an array of choices, and a display area.
+- Displays the selected choice and highlights it among other choices.
+
+3. generateImgElement Function:
+- Takes an object with image and name.
+- Creates an image element with the specified properties.
+
+In short, these functions collaborate to visually present a player's choice, including highlighting it when needed.
+
+Image below to show the outcome of the Function once called upon;
+
+![Working Example](assets/images/working-example-player.png)
 
 3. Score Tracking
 The scores for both Player 1 and the Computer are prominently displayed at the top, allowing players to keep track of their performance throughout the game.
