@@ -59,6 +59,7 @@ Overall, the structure of the Rock, Paper, Scissors, Lizard, Spock game follows 
 ## Features
 
 1. User Interface
+
 The game provides a user-friendly interface with clear sections for Player 1, the Computer, and the game results. The background is a mesmerizing space-themed image to enhance the gaming experience.
 
 ![User Interface](assets/images/homepage.png)
@@ -66,12 +67,13 @@ The game provides a user-friendly interface with clear sections for Player 1, th
 Upon the player landing on the Game home page, they will be met with a visually appeasing game, the Player 1 section is on the left, the computers play area on the right, and a scoreboard at the top and a start over button at the bottom. The design was kept simple, and removed any confusion for the player as to what they have to do to participate.
 
 2. Choices
+
 Player 1's choices are presented with clickable images for Rock, Paper, Scissors, Lizard, and Spock.
 Computer's choices are also displayed but hidden until Player 1 makes a selection.
 
 ![Player Choices](assets/images/choices.png)
 
-The logic behind the Player's chioices comprise of an Event listener, and a Function as follows;
+The logic behind the Player's choices comprise of an Event listener, and a Function as follows;
 
 ![Event Listener](assets/images/event-listener.png)
 
