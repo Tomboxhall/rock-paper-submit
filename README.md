@@ -219,13 +219,14 @@ In summary, **resetChoices** clears any existing visual highlighting from all ch
 
 ## Automated Testing
 
-HTML
+**[W3C Jigsaw CSS](https://jigsaw.w3.org/css-validator/) CSS Validation**
+- The CSS stylesheet was tested and no errors were detected.
 
-CSS
+**[W3C HTML Markup](https://validator.w3.org/) HTML Validation**
+- The HTML on all pages was run through the validator and a couple of 'suggestions' were flagged, these comprised of being advsied to add a DIV or h1-h6 element to the     sections due to not having headings. However for the purpose of this project just using **<Section id=...>** works adequately as intended.
 
-JS
-
----
+**[JSHint Javascript](https://jshint.com/) JS Validation**
+- The JS was tested and a couple of uneccessary semi-colons were detected, these have now been removed and 0 errors were shown upon retesting.
 
 ## Manual Testing of Features
 

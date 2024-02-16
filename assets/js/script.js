@@ -122,22 +122,22 @@ function resetGame() {
     resetMessage();
     resetChoices(player1Choices);
     resetChoices(computerChoices);
-  };
+  }
 
   function resetArea(area) {
     area.innerHTML = "";
-  };
+  }
 
   function resetScore(scoreElement) {
     scoreElement.textContent = "0";
-  };
+  }
 
   function resetMessage() {
     roundMessage.innerHTML = "Choose your option";
-  };
+  }
 
   function resetChoices(choices) {
     choices.forEach((choice) => choice.classList.remove("active"));
-  };
+  }
 
 
