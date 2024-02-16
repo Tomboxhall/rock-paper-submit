@@ -229,10 +229,11 @@ In summary, **resetChoices** clears any existing visual highlighting from all ch
 - The JS was tested and a couple of uneccessary semi-colons were detected, these have now been removed and 0 errors were shown upon retesting.
 
 **Google Lighthouse**
-- 
+- Main game page results show it passes.
+
+![Lighthouse Screenshot](assets/images/lighthouse-test.png)
 
 ## Manual Testing of Features
-
 
 
 ---
@@ -240,6 +241,13 @@ In summary, **resetChoices** clears any existing visual highlighting from all ch
 ## Accessibility Testing
 
 ### Toptal Colorfilter
+
+This website has been tested using [Toptal Colorfilter](https://www.toptal.com/designers/colorfilter), and no accessibility issues were detected.
+
+[Result 1](https://www.toptal.com/designers/colorfilter?orig_uri=https://tomboxhall.github.io/rock-paper-submit/&process_type=protan)
+[Result 2](https://www.toptal.com/designers/colorfilter?orig_uri=https://tomboxhall.github.io/rock-paper-submit/&process_type=deutan)
+[Result 3](https://www.toptal.com/designers/colorfilter?orig_uri=https://tomboxhall.github.io/rock-paper-submit/&process_type=tritan)
+[Result 4](https://www.toptal.com/designers/colorfilter?orig_uri=https://tomboxhall.github.io/rock-paper-submit/&process_type=grey)
 
 ### Screen Reader
 
