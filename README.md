@@ -81,7 +81,7 @@ This JavaScript code adds click event listeners to elements in the player1Choice
 
 ![Selected Choices](assets/images/selected-choices.png)
 
-These JavaScript functions work together for displaying and highlighting a player's choice in a web application or game:
+These JavaScript functions work together for displaying and highlighting a player's choice in the game:
 
 1. **showPlayerChoice** Function:
 - Takes the player's choice and a display area.
@@ -110,13 +110,13 @@ The scores for both Player 1 and the Computer are prominently displayed at the t
 
 The JavaScript function **calculateAndDisplayResult** determines the winner of a game round between a player and a computer. Here's a simplified breakdown:
 
-### 1. Parameters:
+1. Parameters:
 - Takes indices representing the player's and computer's choices.
 
-### 2. Choice Retrieval:
+2. Choice Retrieval:
 - Gets the actual choices (names) made by the player and the computer.
 
-### 3. Comparison and Outcome:
+3. Comparison and Outcome:
 - Checks if the choices are the same; if yes, it's a draw.
 
 If choices are different:
@@ -136,12 +136,12 @@ The game dynamically updates the chosen options for both Player 1 and the Comput
 
 ![Add score and message update](assets/images/add-score-message-ss.png)
 
-These JavaScript functions are for updating and displaying scores and messages in a game:
+These JavaScript functions are for updating and displaying scores and messages in the game:
 
- ### 1. **addScore** Function:
+ 1. **addScore** Function:
 - Takes a score element and increases its displayed score by 1.
 
- ### 2. **showMessage** Function:
+ 2. **showMessage** Function:
 - Takes a message and updates the displayed message on the webpage.
 
 In short, **addScore** manages score updates, and **showMessage** handles displaying messages in the game.
@@ -149,7 +149,30 @@ In short, **addScore** manages score updates, and **showMessage** handles displa
 ### 5. Reset Button
 A "Start Over" button is available for players to reset the game. This button clears the chosen options, resets the scores, and displays a message prompting the player to make a new selection.
 
-(Show screenshot example, and any functions related to this)
+![Reset Button](assets/images/reset-button.png)
+
+![Reset Button Javascript](assets/images/reset-button-script.png)
+
+This JavaScript code sets up a reset button for the game:
+
+1. Event Listener:
+- Listens for a click on an element with the class "reset-btn."
+- When clicked, it triggers the resetGame function.
+
+2 .resetGame Function:
+- Calls different reset functions to clear and initialize various aspects of the game:
+- resetArea: Clears display areas for player and computer choices.
+- resetScore: Resets player and computer scores to zero.
+- resetMessage: Resets the displayed message.
+- resetChoices: Removes the "active" class from player and computer choices.
+
+3 .Reset Functions:
+- resetArea(area): Clears content in a specified HTML element (area).
+- resetScore(scoreElement): Sets the score to "0."
+- resetMessage(): Sets the displayed message to a default.
+- resetChoices(choices): Removes the "active" class from each choice in a provided array.
+
+In short, clicking the reset button triggers a function that resets various game elements to their initial state.
 
 ### 6. Extras
 
