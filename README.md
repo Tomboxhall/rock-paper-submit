@@ -157,22 +157,25 @@ This JavaScript code sets up a reset button for the game:
 
 1. Event Listener:
 - Listens for a click on an element with the class "reset-btn."
-- When clicked, it triggers the resetGame function.
+- When clicked, it triggers the **resetGame** function.
 
-2 .resetGame Function:
+2. **resetGame** Function:
 - Calls different reset functions to clear and initialize various aspects of the game:
-- resetArea: Clears display areas for player and computer choices.
-- resetScore: Resets player and computer scores to zero.
-- resetMessage: Resets the displayed message.
-- resetChoices: Removes the "active" class from player and computer choices.
+- **resetArea**: Clears display areas for player and computer choices.
+- **resetScore**: Resets player and computer scores to zero.
+- **resetMessage**: Resets the displayed message.
+- **resetChoices**: Removes the "active" class from player and computer choices.
 
-3 .Reset Functions:
-- resetArea(area): Clears content in a specified HTML element (area).
-- resetScore(scoreElement): Sets the score to "0."
-- resetMessage(): Sets the displayed message to a default.
-- resetChoices(choices): Removes the "active" class from each choice in a provided array.
+3. Reset Functions:
+- **resetArea(area)**: Clears content in a specified HTML element **(area)**.
+- **resetScore(scoreElement)**: Sets the score to "0."
+- **resetMessage()**: Sets the displayed message to a default.
+- **resetChoices(choices)**: Removes the "active" class from each choice in a provided array.
 
 In short, clicking the reset button triggers a function that resets various game elements to their initial state.
+
+![Game area before reset](assets/images/before-reset.png)
+![Game are after reset](assets/images/after-reset.png)
 
 ### 6. Extras
 
