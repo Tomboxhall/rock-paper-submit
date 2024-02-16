@@ -105,6 +105,7 @@ Image below to show the outcome of the Function once called upon;
 The scores for both Player 1 and the Computer are prominently displayed at the top, allowing players to keep track of their performance throughout the game.
 
 ![Score Tracking](assets/images/score-tracking.png)
+
 ![Calculate Score and Display Result](assets/images/calculate-score.png)
 
 The JavaScript function **calculateAndDisplayResult** determines the winner of a game round between a player and a computer. Here's a simplified breakdown:
@@ -131,12 +132,26 @@ In short, this function calculates and displays the result of a game round, fact
 ### 4. Real-time Results
 The game dynamically updates the chosen options for both Player 1 and the Computer, providing a visual representation of the current round. The result message informs the player of the outcome, whether it's a draw, a win for Player 1, or a win for the Computer.
 
-(Show screenshot example, and any functions related to this)
+![Updating Score Display + Adding the Score](assets/images/add-score-message.png)
+
+These JavaScript functions are for updating and displaying scores and messages in a game:
+
+### 1. **addScore** Function:
+- Takes a score element and increases its displayed score by 1.
+
+### 2. **showMessage** Function:
+- Takes a message and updates the displayed message on the webpage.
+
+In short, **addScore** manages score updates, and **showMessage** handles displaying messages in the game.
 
 ### 5. Reset Button
 A "Start Over" button is available for players to reset the game. This button clears the chosen options, resets the scores, and displays a message prompting the player to make a new selection.
 
 (Show screenshot example, and any functions related to this)
+
+### 6. Extras
+
+Remove active class
 
 ---
 
