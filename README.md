@@ -83,15 +83,15 @@ This JavaScript code adds click event listeners to elements in the player1Choice
 
 These JavaScript functions work together for displaying and highlighting a player's choice in a web application or game:
 
-1. showPlayerChoice Function:
+1. **showPlayerChoice** Function:
 - Takes the player's choice and a display area.
 - Uses generateImgElement to create and display an image of the choice in the area.
 
-2. showChoiceAndHighlight Function:
+2. **showChoiceAndHighlight** Function:
 - Takes an index, an array of choices, and a display area.
 - Displays the selected choice and highlights it among other choices.
 
-3. generateImgElement Function:
+3. **generateImgElement** Function:
 - Takes an object with image and name.
 - Creates an image element with the specified properties.
 
@@ -104,7 +104,28 @@ Image below to show the outcome of the Function once called upon;
 ### 3. Score Tracking
 The scores for both Player 1 and the Computer are prominently displayed at the top, allowing players to keep track of their performance throughout the game.
 
-(Show screenshot example, and any functions related to this)
+![Score Tracking](assets/images/score-tracking.png)
+
+The JavaScript function **calculateAndDisplayResult** determines the winner of a game round between a player and a computer. Here's a simplified breakdown:
+
+### 1. Parameters:
+- Takes indices representing the player's and computer's choices.
+
+### 2. Choice Retrieval:
+- Gets the actual choices (names) made by the player and the computer.
+
+### 3. Comparison and Outcome:
+- Checks if the choices are the same; if yes, it's a draw.
+
+If choices are different:
+
+- Determines the strength of the player's choice using predefined rules.
+- Checks if the player wins against the computer.
+- Updates the score and displays the result message (win, lose).
+
+In short, this function calculates and displays the result of a game round, factoring in draws, player wins, and computer wins based on their choices and predefined rules.
+
+![Example of PLayer + Computer Choice and Score update](assets/images/score-update.png)
 
 ### 4. Real-time Results
 The game dynamically updates the chosen options for both Player 1 and the Computer, providing a visual representation of the current round. The result message informs the player of the outcome, whether it's a draw, a win for Player 1, or a win for the Computer.
