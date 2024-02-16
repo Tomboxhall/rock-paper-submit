@@ -58,7 +58,7 @@ Overall, the structure of the Rock, Paper, Scissors, Lizard, Spock game follows 
 
 ## Features
 
-1. User Interface
+### 1. User Interface
 
 The game provides a user-friendly interface with clear sections for Player 1, the Computer, and the game results. The background is a mesmerizing space-themed image to enhance the gaming experience.
 
@@ -66,7 +66,7 @@ The game provides a user-friendly interface with clear sections for Player 1, th
 
 Upon the player landing on the Game home page, they will be met with a visually appeasing game, the Player 1 section is on the left, the computers play area on the right, and a scoreboard at the top and a start over button at the bottom. The design was kept simple, and removed any confusion for the player as to what they have to do to participate.
 
-2. Choices
+### 2. Choices
 
 Player 1's choices are presented with clickable images for Rock, Paper, Scissors, Lizard, and Spock.
 Computer's choices are also displayed but hidden until Player 1 makes a selection.
@@ -101,17 +101,17 @@ Image below to show the outcome of the Function once called upon;
 
 ![Working Example](assets/images/working-example-player.png)
 
-3. Score Tracking
+### 3. Score Tracking
 The scores for both Player 1 and the Computer are prominently displayed at the top, allowing players to keep track of their performance throughout the game.
 
 (Show screenshot example, and any functions related to this)
 
-4. Real-time Results
+### 4. Real-time Results
 The game dynamically updates the chosen options for both Player 1 and the Computer, providing a visual representation of the current round. The result message informs the player of the outcome, whether it's a draw, a win for Player 1, or a win for the Computer.
 
 (Show screenshot example, and any functions related to this)
 
-5. Reset Button
+### 5. Reset Button
 A "Start Over" button is available for players to reset the game. This button clears the chosen options, resets the scores, and displays a message prompting the player to make a new selection.
 
 (Show screenshot example, and any functions related to this)
