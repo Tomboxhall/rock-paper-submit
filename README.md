@@ -132,14 +132,16 @@ In short, this function calculates and displays the result of a game round, fact
 ### 4. Real-time Results
 The game dynamically updates the chosen options for both Player 1 and the Computer, providing a visual representation of the current round. The result message informs the player of the outcome, whether it's a draw, a win for Player 1, or a win for the Computer.
 
-![Updating Score Display + Adding the Score](assets/images/add-score-message.png)
+![Updating Score Display + Adding the Score](assets/images/add-score-message-update.png)
+
+![Add score and message update](assets/images/add-score-message-update.png)
 
 These JavaScript functions are for updating and displaying scores and messages in a game:
 
- **addScore** Function:
+ ### 1. **addScore** Function:
 - Takes a score element and increases its displayed score by 1.
 
- **showMessage** Function:
+ ### 2. **showMessage** Function:
 - Takes a message and updates the displayed message on the webpage.
 
 In short, **addScore** manages score updates, and **showMessage** handles displaying messages in the game.
