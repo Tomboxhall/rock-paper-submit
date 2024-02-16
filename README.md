@@ -105,6 +105,7 @@ Image below to show the outcome of the Function once called upon;
 The scores for both Player 1 and the Computer are prominently displayed at the top, allowing players to keep track of their performance throughout the game.
 
 ![Score Tracking](assets/images/score-tracking.png)
+![Calculate Score and Display Result](assets/images/calculate-score.png)
 
 The JavaScript function **calculateAndDisplayResult** determines the winner of a game round between a player and a computer. Here's a simplified breakdown:
 
