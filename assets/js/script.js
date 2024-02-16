@@ -19,14 +19,14 @@ const roundMessage = document.querySelector("#round-message");
 
 // Order of the chocies //
 
-const imageFolderPath = "/assets/images";
+const imageFolderPath = "assets/images";
 
 const arr = [
-    { image: "/rock.webp", name: "Rock" },
-    { image: "/paper.png", name: "Paper" },
-    { image: "/scissors.webp", name: "Scissors" },
-    { image: "/lizard.webp", name: "Lizard" },
-    { image: "/spock.webp", name: "Spock" },
+    { image: "rock.webp", name: "Rock" },
+    { image: "paper.png", name: "Paper" },
+    { image: "scissors.webp", name: "Scissors" },
+    { image: "lizard.webp", name: "Lizard" },
+    { image: "spock.webp", name: "Spock" },
   ];
 
 // The rules who who wins //
