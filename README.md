@@ -228,13 +228,14 @@ In summary, **resetChoices** clears any existing visual highlighting from all ch
 **[JSHint Javascript](https://jshint.com/) JS Validation**
 - The JS was tested and a couple of uneccessary semi-colons were detected, these have now been removed and 0 errors were shown upon retesting.
 
+![JShint Test](assets/images/jshint%20.png)
+
 **Google Lighthouse**
 - Main game page results show it passes.
 
 ![Lighthouse Screenshot](assets/images/lighthouse-test.png)
 
 ## Manual Testing of Features
-
 
 ---
 
@@ -251,6 +252,7 @@ This website has been tested using [Toptal Colorfilter](https://www.toptal.com/d
 
 ### Screen Reader
 
+This website has been tested with [Screen Reader for Google Chrome](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn), And no issues were detected.
 ---
 
 ## Deployment
