@@ -136,10 +136,10 @@ The game dynamically updates the chosen options for both Player 1 and the Comput
 
 These JavaScript functions are for updating and displaying scores and messages in a game:
 
-### 1. **addScore** Function:
+ **addScore** Function:
 - Takes a score element and increases its displayed score by 1.
 
-### 2. **showMessage** Function:
+ **showMessage** Function:
 - Takes a message and updates the displayed message on the webpage.
 
 In short, **addScore** manages score updates, and **showMessage** handles displaying messages in the game.
