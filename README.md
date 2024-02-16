@@ -77,7 +77,7 @@ The logic behind the Player's chioices comprise of an Event listener, and a Func
 
 This JavaScript code adds click event listeners to elements in the player1Choices array. When one of these elements is clicked, it calls the playRound function with the clicked choice as an argument. The assumption is that player1Choices contains HTML elements representing choices for a game, like buttons, and playRound handles the game logic for the selected choice.
 
-![Selected Choice](assets/images/selected-choices.png.png)
+![Selected Choices](assets/images/selected-choices.png)
 
 These JavaScript functions work together for displaying and highlighting a player's choice in a web application or game:
 
