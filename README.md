@@ -228,7 +228,12 @@ In summary, **resetChoices** clears any existing visual highlighting from all ch
 **[JSHint Javascript](https://jshint.com/) JS Validation**
 - The JS was tested and a couple of uneccessary semi-colons were detected, these have now been removed and 0 errors were shown upon retesting.
 
+**Google Lighthouse**
+- 
+
 ## Manual Testing of Features
+
+
 
 ---
 
