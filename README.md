@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors, Lizard, Spock Javascript Game
 
-![Javascript Game Homepage](assets/images/homepage.png)
+![Javascript Game Homepage](assets/images/new-main-area.png)
 
 # Game purpose
 
@@ -62,7 +62,7 @@ Overall, the structure of the Rock, Paper, Scissors, Lizard, Spock game follows 
 
 The game provides a user-friendly interface with clear sections for Player 1, the Computer, and the game results. The background is a mesmerizing space-themed image to enhance the gaming experience.
 
-![User Interface](assets/images/homepage.png)
+![User Interface](assets/images/new-main-area.png)
 
 Upon the player landing on the Game home page, they will be met with a visually appeasing game, the Player 1 section is on the left, the computers play area on the right, and a scoreboard at the top and a start over button at the bottom. The design was kept simple, and removed any confusion for the player as to what they have to do to participate.
 
@@ -175,7 +175,7 @@ This JavaScript code sets up a reset button for the game:
 In short, clicking the reset button triggers a function that resets various game elements to their initial state.
 
 ![Game area before reset](assets/images/before-reset.png)
-![Game are after reset](assets/images/after-reset.png)
+![Game are after reset](assets/images/new-main-area.png)
 
 ### 6. Extras
 
