@@ -29,7 +29,7 @@ The rules are as follows:
 
 The website has been built using HTML and CSS, and is the final submission for the project#1 section of the Code Institute's Full Stack Developer course.
 
-[The live website can be viewed via this link](https://github.com/Tomboxhall/rock-paper-submit)
+[The live website can be viewed via this link](https://tomboxhall.github.io/rock-paper-submit/).
 
 ---
 
