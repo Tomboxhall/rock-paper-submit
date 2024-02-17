@@ -133,7 +133,7 @@ function resetGame() {
   };
 
   function resetMessage() {
-    roundMessage.innerHTML = "Choose your option";
+    roundMessage.innerHTML = "Make your choice!";
   };
 
   function resetChoices(choices) {
