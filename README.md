@@ -284,8 +284,8 @@ This website has been tested with [Screen Reader for Google Chrome](https://chro
 
 This project was deployed to Github pages, a step by step guide to deploy is as follows:
 
-1. Log into [Github](https://github.com/Tomboxhall/history-of-edinburgh).
-2. Choose `history-of-edinburgh` in the list of repositories.
+1. Log into [Github](https://github.com/Tomboxhall/rock-paper-submit).
+2. Choose `rock-paper-submit` in the list of repositories.
 3. Select `settings` in the repositories sub headings along the top.
 4. In the left hand side menu, select the `pages` link within the `code and automation` section.
 5. Within the branch sub-section, under Build and Deployment select `main` in the dropdown menu.
@@ -299,12 +299,43 @@ This project was deployed to Github pages, a step by step guide to deploy is as 
 
 ### Media (Image Sourcing)
 
+- space-background1.webp is by Jeremy Thomas from [unsplash](https://unsplash.com/photos/blue-and-purple-galaxy-digital-wallpaper-E0AHdsENmDg).
+- rock.webp is from [Clean PNG](https://www.cleanpng.com/png-rock-free-content-clip-art-cartoon-rock-cliparts-556463/).
+- paper.png is from [Clean PNG](https://www.cleanpng.com/free/paper.html).
+- scissors.webp is from [Clean PNG](https://www.cleanpng.com/png-icon-scissors-metal-scissors-sharp-edges-scissors-7950123/).
+- lizard.webp is from [Clean PNG](https://www.cleanpng.com/png-lizard-reptile-gecko-clip-art-creative-3d-gecko-461397/).
+- spock.webp is from [Clean PNG](https://www.cleanpng.com/png-leonard-nimoy-star-trek-the-motion-picture-spock-n-5883527/).
+
 ### Code
 
+Inspiration for this project was taken from multiple other Youtube videos and Online walkthroughs, i have listed them below;
+- [Hackernoon](https://hackernoon.com/how-to-create-rock-paper-scissors-spock-lizard-in-javascript-991k36hy).
+- [Medium - Sakil Mahmud](https://medium.com/@sakilmahmud543/build-sheldons-chaotic-rock-paper-scissors-lizard-spock-with-nodejs-923d6cb9f5dc).
+
+The HTML and CSS framework inspiration was taken from the following website;
+- [Learners Bucket](https://learnersbucket.com/tutorials/js-projects/rock-paper-scissor-lizard-spock-game-in-javascript/).
+
+All code was edited by myself, with the help of VS Code's 'AI Agent'.
+
 ### Ackownledgments
+
+I would like to thank the Code Institute for providing easy to understand and follow mock-up 'Love Maths' game, from this is was able to build out my own Game making sure it covered some of the main features required.
+
+I would like to thank my Tutor, Ronan McClelland, for the useful information and feedback during our 2 sessions.
+
+Finally would like to thank the Online Slack community, for always being there when i had issues i could not figure out on my own.
 
 ---
 
 ## Final Comments
+
+I ran my project through the VS Code 'AI Assist' software, and asked it to give me feedback, and ways i could improve this project if i was to do it again. I have posted the responses below;
+
+1. Error Handling: Add error handling for unexpected scenarios, such as invalid data or unexpected behavior.
+2. Testing Edge Cases: Test with extreme inputs or edge cases to ensure robustness.
+3. Unit Tests: Consider writing unit tests using a testing framework to automate and streamline the testing process.
+4. Accessibility: Ensure the game is accessible to users with disabilities by incorporating proper ARIA attributes and keyboard navigation.
+
+I acknowledge that these changes would improve my project, and will make sure to keep these in mind for the completion of the next Project. But overall i am happy with my Project 2, and happily accept whichever grade i receive.
 
 ---
