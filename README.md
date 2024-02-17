@@ -311,6 +311,8 @@ This project was deployed to Github pages, a step by step guide to deploy is as 
 Inspiration for this project was taken from multiple other Youtube videos and Online walkthroughs, i have listed them below;
 - [Hackernoon](https://hackernoon.com/how-to-create-rock-paper-scissors-spock-lizard-in-javascript-991k36hy).
 - [Medium - Sakil Mahmud](https://medium.com/@sakilmahmud543/build-sheldons-chaotic-rock-paper-scissors-lizard-spock-with-nodejs-923d6cb9f5dc).
+- [Competent Programming](https://www.youtube.com/watch?v=lV2BMXdsDmc&t=3653s).
+
 
 The HTML and CSS framework inspiration was taken from the following website;
 - [Learners Bucket](https://learnersbucket.com/tutorials/js-projects/rock-paper-scissor-lizard-spock-game-in-javascript/).
